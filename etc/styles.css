@@ -1,0 +1,58 @@
+/* Общие стили для всего сайта */
+
+/* Стили для шапки сайта */
+header {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+}
+
+header h1 {
+    color: red;
+    margin: 0;
+}
+
+/* Стили для меню сайта */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: red;
+}
+
+/* Стили для основной части страницы */
+main {
+    margin: 20px;
+}
+
+/* Стили для подвала сайта */
+footer {
+    background-color: #333;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Общие стили для заголовков h2 на всех страницах */
+h2 {
+    color: red;
+    /* Дополнительные стили для заголовков h2 */
+}
+
+/* Общие стили для статей и текста внутри статей на всех страницах */
+article {
+    margin-bottom: 20px;
+    /* Дополнительные стили для статей */
+}
+
+article p {
+    /* Дополнительные стили для текста в статьях */
+}
