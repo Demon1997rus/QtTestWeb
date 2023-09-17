@@ -5,6 +5,7 @@
 #include "helloworldcontroller.h"
 #include "listdatacontroller.h"
 #include "logincontroller.h"
+#include "cookietestcontroller.h"
 
 using namespace stefanfrings;
 
@@ -22,6 +23,7 @@ private:
     HelloWorldController helloWorldController;
     ListDataController listDataController;
     LoginController loginController;
+    CookieTestController cookieTestController;
 };
 
 #endif  // REQUESTERMAPPERT_H

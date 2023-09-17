@@ -24,7 +24,8 @@ SOURCES += src/main.cpp \
     src/requestermapper.cpp \
     src/listdatacontroller.cpp \
     src/logincontroller.cpp \
-    src/global.cpp
+    src/global.cpp \
+    src/cookietestcontroller.cpp
 
 include(../QtWebApp/QtWebApp/httpserver/httpserver.pri)
 
@@ -35,4 +36,5 @@ HEADERS += \
     src/requestermapper.h \
     src/listdatacontroller.h \
     src/logincontroller.h \
-    src/global.h
+    src/global.h \
+    src/cookietestcontroller.h

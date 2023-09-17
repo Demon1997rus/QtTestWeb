@@ -17,6 +17,10 @@ void RequesterMapper::service(HttpRequest& request, HttpResponse& response)
     {
         loginController.service(request, response);
     }
+    else if (path == "/cookie")
+    {
+        cookieTestController.service(request, response);
+    }
     else
     {
         response.setStatus(404, "Not found");
