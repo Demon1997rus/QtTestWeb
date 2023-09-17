@@ -1,2 +1,2 @@
 # QtTestWeb
-Тестировка QtWeb
+Тестировка QtWeb initial commit
