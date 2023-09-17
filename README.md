@@ -1,2 +1,3 @@
 # QtTestWeb
-Тестировка QtWeb initial commit
+Тестировка QtWeb 
+Важно - код будет работать если содержимое этого архива http://stefanfrings.de/qtwebapp/QtWebApp.zip будет лежать в папке с проектом
