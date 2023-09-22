@@ -25,9 +25,12 @@ SOURCES += src/main.cpp \
     src/listdatacontroller.cpp \
     src/logincontroller.cpp \
     src/global.cpp \
-    src/cookietestcontroller.cpp
+    src/cookietestcontroller.cpp \
+    src/unicodecontroller.cpp \
+    src/datatemplatecontroller.cpp
 
 include(../QtWebApp/QtWebApp/httpserver/httpserver.pri)
+include(../QtWebApp/QtWebApp/templateengine/templateengine.pri)
 
 OTHER_FILES += etc/webapp1.ini
 
@@ -37,4 +40,6 @@ HEADERS += \
     src/listdatacontroller.h \
     src/logincontroller.h \
     src/global.h \
-    src/cookietestcontroller.h
+    src/cookietestcontroller.h \
+    src/unicodecontroller.h \
+    src/datatemplatecontroller.h

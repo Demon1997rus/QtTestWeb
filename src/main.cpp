@@ -62,6 +62,16 @@ int main(int argc, char* argv[])
     sessionSettings->beginGroup("sessions");
     sessionStore = new HttpSessionStore(sessionSettings, &app);
 
+    //Статический файловый контроллер
+    QSettings* fileSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
+    fileSettings->beginGroup("files");
+    staticFileController = new StaticFileController(fileSettings, &app);
+
+    //Настройка кэша шаблонов
+    QSettings* templateSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
+    templateSettings->beginGroup("templates");
+    templateCache = new TemplateCache(templateSettings, &app);
+
     //Запускаем HTTP сервер
     QSettings* listenerSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
     listenerSettings->beginGroup("listener");

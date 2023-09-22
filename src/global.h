@@ -1,10 +1,11 @@
-#ifndef GLOBAL_H
-#define GLOBAL_H
+#pragma once
 
 #include "httpsessionstore.h"
+#include "staticfilecontroller.h"
+#include "templatecache.h"
 
 using namespace stefanfrings;
 
 extern HttpSessionStore* sessionStore;
-
-#endif  // GLOBAL_H
+extern StaticFileController* staticFileController;
+extern TemplateCache* templateCache;
