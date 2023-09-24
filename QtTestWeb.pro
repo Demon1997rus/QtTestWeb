@@ -31,6 +31,7 @@ SOURCES += src/main.cpp \
 
 include(../QtWebApp/QtWebApp/httpserver/httpserver.pri)
 include(../QtWebApp/QtWebApp/templateengine/templateengine.pri)
+include(../QtWebApp/QtWebApp/logging/logging.pri)
 
 OTHER_FILES += etc/webapp1.ini
 

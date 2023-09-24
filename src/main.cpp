@@ -57,6 +57,15 @@ int main(int argc, char* argv[])
     QCoreApplication app(argc, argv);
     QString configFileName = searchConfigFile();
 
+    // Настройка введения журнала
+    QSettings* logSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
+    logSettings->beginGroup("logging");
+    logger = new FileLogger(logSettings, 10000, &app);
+    logger->installMsgHandler();
+
+    // Регистрируем версию библиотеки
+    qDebug("QtWebApp has version %s", getQtWebAppLibVersion());
+
     //Хранилище сеансов
     QSettings* sessionSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
     sessionSettings->beginGroup("sessions");
@@ -76,5 +85,6 @@ int main(int argc, char* argv[])
     QSettings* listenerSettings = new QSettings(configFileName, QSettings::IniFormat, &app);
     listenerSettings->beginGroup("listener");
     new HttpListener(listenerSettings, new RequesterMapper(&app), &app);
+
     return app.exec();
 }

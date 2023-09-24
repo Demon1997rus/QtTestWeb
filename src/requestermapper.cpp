@@ -8,6 +8,9 @@ void RequesterMapper::service(HttpRequest& request, HttpResponse& response)
 {
     QByteArray path = request.getPath();
     qDebug("RequestMapper: path=%s", path.data());
+    HttpSession session = sessionStore->getSession(request, response, false);
+    QString username = session.get("username").toString();
+    logger->set("currentUser", username);
 
     QByteArray sessionId = sessionStore->getSessionId(request, response);
     if (sessionId.isEmpty() && path == "/login")
@@ -51,4 +54,5 @@ void RequesterMapper::service(HttpRequest& request, HttpResponse& response)
         response.write("The URL is wrong, no such document.", true);
     }
     qDebug("RequestMapper: finished request");
+    logger->clear();
 }

@@ -1,0 +1,100 @@
+24.09.2023 06:49:40.903 2 CRITICAL 0x7f4a0a916700 User: TemplateCache: cannot find template files/listdata
+24.09.2023 06:49:40.903 1 WARNING  0x7f4a0a916700 User: Template: missing variable {name} in files/listdata
+24.09.2023 06:49:40.903 1 WARNING  0x7f4a0a916700 User: Template: missing condition {if logged-in} or {ifnot logged-in} in files/listdata
+24.09.2023 06:49:40.903 1 WARNING  0x7f4a0a916700 User: Template: missing loop {loop row} in files/listdata
+24.09.2023 06:49:40.903 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row0.number} in files/listdata
+24.09.2023 06:49:40.903 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row0.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row1.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row1.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row2.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row2.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row3.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row3.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row4.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row4.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row5.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row5.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row6.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row6.name} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row7.number} in files/listdata
+24.09.2023 06:49:40.904 1 WARNING  0x7f4a0a916700 User: Template: missing variable {row7.name} in files/listdata
+24.09.2023 06:50:29.409 2 CRITICAL 0x7f63354fb740 User:{currentUser} HttpListener: Cannot bind on port 8080: The bound address is already in use
+24.09.2023 06:50:57.368 2 CRITICAL 0x7fed5346c700 User: TemplateCache: cannot find template files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing condition {if logged-in} or {ifnot logged-in} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing loop {loop row} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.name} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.number} in files/hello
+24.09.2023 06:50:57.368 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.name} in files/hello
+24.09.2023 06:50:57.369 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.number} in files/hello
+24.09.2023 06:50:57.369 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.name} in files/hello
+24.09.2023 06:50:57.369 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.number} in files/hello
+24.09.2023 06:50:57.369 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.name} in files/hello
+24.09.2023 06:51:22.936 2 CRITICAL 0x7fed5346c700 User: TemplateCache: cannot find template files/hello
+24.09.2023 06:51:22.936 1 WARNING  0x7fed5346c700 User: Template: missing variable {name} in files/hello
+24.09.2023 06:51:22.936 1 WARNING  0x7fed5346c700 User: Template: missing condition {if logged-in} or {ifnot logged-in} in files/hello
+24.09.2023 06:51:22.936 1 WARNING  0x7fed5346c700 User: Template: missing loop {loop row} in files/hello
+24.09.2023 06:51:22.936 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.number} in files/hello
+24.09.2023 06:51:22.936 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.name} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.number} in files/hello
+24.09.2023 06:51:22.937 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.name} in files/hello
+24.09.2023 06:51:26.810 2 CRITICAL 0x7fed5346c700 User: TemplateCache: cannot find template files/hello
+24.09.2023 06:51:26.810 1 WARNING  0x7fed5346c700 User: Template: missing variable {name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing condition {if logged-in} or {ifnot logged-in} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing loop {loop row} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row0.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row1.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row2.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row3.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row4.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row5.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row6.name} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.number} in files/hello
+24.09.2023 06:51:26.811 1 WARNING  0x7fed5346c700 User: Template: missing variable {row7.name} in files/hello
+24.09.2023 06:51:43.231 1 WARNING  0x7f3490dc5700 User: Template: missing variable {name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing condition {if logged-in} or {ifnot logged-in} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing loop {loop row} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row0.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row0.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row1.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row1.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row2.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row2.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row3.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row3.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row4.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row4.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row5.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row5.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row6.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row6.name} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row7.number} in files/hello
+24.09.2023 06:51:43.232 1 WARNING  0x7f3490dc5700 User: Template: missing variable {row7.name} in files/hello
